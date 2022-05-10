@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: scala-datapipeline-dsl
+  description: |
+    Domain-specific language to help build and maintain AWS Data Pipelines
+  annotations:
+    github.com/project-slug: Tradeshift/scala-datapipeline-dsl
+  tags:
+    - scala
+spec:
+  type: library
+  owner: ml-team
+  lifecycle: production
